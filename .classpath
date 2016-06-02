@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="surveys"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="libs"/>
+	<classpathentry kind="lib" path="/Users/sparris/Documents/workspace/ExamSystem/libs/Client.jar"/>
+	<classpathentry kind="lib" path="/Users/sparris/Documents/workspace/ExamSystem/libs/cmu_time_awb.jar"/>
+	<classpathentry kind="lib" path="/Users/sparris/Documents/workspace/ExamSystem/libs/cmu_us_kal.jar"/>
+	<classpathentry kind="lib" path="/Users/sparris/Documents/workspace/ExamSystem/libs/cmudict04.jar"/>
+	<classpathentry kind="lib" path="/Users/sparris/Documents/workspace/ExamSystem/libs/cmulex.jar"/>
+	<classpathentry kind="lib" path="/Users/sparris/Documents/workspace/ExamSystem/libs/cmutimelex.jar"/>
+	<classpathentry kind="lib" path="/Users/sparris/Documents/workspace/ExamSystem/libs/EmacspeakServer.jar"/>
+	<classpathentry kind="lib" path="/Users/sparris/Documents/workspace/ExamSystem/libs/en_us.jar"/>
+	<classpathentry kind="lib" path="/Users/sparris/Documents/workspace/ExamSystem/libs/freetts-jsapi10.jar"/>
+	<classpathentry kind="lib" path="/Users/sparris/Documents/workspace/ExamSystem/libs/freetts.jar"/>
+	<classpathentry kind="lib" path="/Users/sparris/Documents/workspace/ExamSystem/libs/FreeTTSEmacspeakServer.jar"/>
+	<classpathentry kind="lib" path="/Users/sparris/Documents/workspace/ExamSystem/libs/FreeTTSHelloWorld.jar"/>
+	<classpathentry kind="lib" path="/Users/sparris/Documents/workspace/ExamSystem/libs/HelloWorld.jar"/>
+	<classpathentry kind="lib" path="/Users/sparris/Documents/workspace/ExamSystem/libs/jsapi.jar"/>
+	<classpathentry kind="lib" path="/Users/sparris/Documents/workspace/ExamSystem/libs/JTime.jar"/>
+	<classpathentry kind="lib" path="/Users/sparris/Documents/workspace/ExamSystem/libs/MixedVoices.jar"/>
+	<classpathentry kind="lib" path="/Users/sparris/Documents/workspace/ExamSystem/libs/Player.jar"/>
+	<classpathentry kind="lib" path="/Users/sparris/Documents/workspace/ExamSystem/libs/Server.jar"/>
+	<classpathentry kind="lib" path="/Users/sparris/Documents/workspace/ExamSystem/libs/WebStartClock.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

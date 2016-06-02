@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_nXQvYP0BEeWxnt_WBmzxzg" name="NewModel">
+  <packageImport xmi:id="_foF1gP0HEeWxnt_WBmzxzg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_kaYVQP0GEeWxnt_WBmzxzg" name="Survey">
+    <ownedAttribute xmi:id="_PTW60AF9Eea2VZTTYPp2MQ" name="name" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PTXh4AF9Eea2VZTTYPp2MQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PTXh4QF9Eea2VZTTYPp2MQ" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_EZ8q8AJyEeasQKgJVOGxXQ" name="questions" visibility="protected" type="_gykGQADFEea2VZTTYPp2MQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EZ95EAJyEeasQKgJVOGxXQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EZ95EQJyEeasQKgJVOGxXQ" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_XBRn4ATiEea1FKGm45eocQ" name="responsesArrays" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XBSO8ATiEea1FKGm45eocQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XBSO8QTiEea1FKGm45eocQ" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_u1agsADrEea2VZTTYPp2MQ" name="AddQuestion">
+      <ownedParameter xmi:id="_1oJW8AEmEea2VZTTYPp2MQ" name="question" type="_gykGQADFEea2VZTTYPp2MQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_OtB7oAFyEea2VZTTYPp2MQ" name="AskAdminBoolean" visibility="protected"/>
+    <ownedOperation xmi:id="_OtB7oQFyEea2VZTTYPp2MQ" name="AskAdminEssay" visibility="protected"/>
+    <ownedOperation xmi:id="_OtCisAFyEea2VZTTYPp2MQ" name="AskAdminShortAnswer" visibility="protected"/>
+    <ownedOperation xmi:id="_OtCisQFyEea2VZTTYPp2MQ" name="AskAdminRanking" visibility="protected"/>
+    <ownedOperation xmi:id="_OtCisgFyEea2VZTTYPp2MQ" name="AskAdminMatching" visibility="protected"/>
+    <ownedOperation xmi:id="_OtCiswFyEea2VZTTYPp2MQ" name="AskAdminMC" visibility="protected"/>
+    <ownedOperation xmi:id="_kzk8AAFyEea2VZTTYPp2MQ" name="Display"/>
+    <ownedOperation xmi:id="_Hf_3wAFzEea2VZTTYPp2MQ" name="Modify"/>
+    <ownedOperation xmi:id="_I0e-cAFzEea2VZTTYPp2MQ" name="Take"/>
+    <ownedOperation xmi:id="_J_MeEAFzEea2VZTTYPp2MQ" name="Tabulate"/>
+    <ownedOperation xmi:id="_pH-GoANlEea1FKGm45eocQ" name="Survey">
+      <ownedParameter xmi:id="_vZV-EANlEea1FKGm45eocQ" name="name">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_wFPawANlEea1FKGm45eocQ" name="Survey"/>
+    <ownedOperation xmi:id="_fCHesANqEea1FKGm45eocQ" name="Survey">
+      <ownedParameter xmi:id="_fCHesQNqEea1FKGm45eocQ" name="name">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_mobv0ANqEea1FKGm45eocQ" name="questions" type="_gykGQADFEea2VZTTYPp2MQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_miWhEAPaEea1FKGm45eocQ" name="AskAdminQuestion"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_oV5IkP0GEeWxnt_WBmzxzg" name="Test">
+    <generalization xmi:id="_ah_GIAEfEea2VZTTYPp2MQ" general="_kaYVQP0GEeWxnt_WBmzxzg"/>
+    <ownedAttribute xmi:id="_fa6qsAFxEea2VZTTYPp2MQ" name="correctAnswers" visibility="public" type="_tTDXAAGkEea5FpTKJvtgcw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fa7RwAFxEea2VZTTYPp2MQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fa740AFxEea2VZTTYPp2MQ" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_8Uw_8AEmEea2VZTTYPp2MQ" name="AddQuestion">
+      <ownedParameter xmi:id="_8Uw_8QEmEea2VZTTYPp2MQ" name="question" type="_gykGQADFEea2VZTTYPp2MQ"/>
+      <ownedParameter xmi:id="_80tEQAEmEea2VZTTYPp2MQ" name="correctAnswers"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Vue6sANrEea1FKGm45eocQ" name="AskAdminBoolean" visibility="protected"/>
+    <ownedOperation xmi:id="_Vue6sQNrEea1FKGm45eocQ" name="AskAdminMC" visibility="protected"/>
+    <ownedOperation xmi:id="_Vue6sgNrEea1FKGm45eocQ" name="AskAdminShortAnswer" visibility="protected"/>
+    <ownedOperation xmi:id="_Vue6swNrEea1FKGm45eocQ" name="AskAdminEssay" visibility="protected"/>
+    <ownedOperation xmi:id="_Vue6tANrEea1FKGm45eocQ" name="AskAdminMatching" visibility="protected"/>
+    <ownedOperation xmi:id="_Vue6tQNrEea1FKGm45eocQ" name="AskAdminRanking" visibility="protected"/>
+    <ownedOperation xmi:id="_WggNgANrEea1FKGm45eocQ" name="Modify"/>
+    <ownedOperation xmi:id="_XT-44ANrEea1FKGm45eocQ" name="Grade"/>
+    <ownedOperation xmi:id="_IcXt8AN3Eea1FKGm45eocQ" name="Take"/>
+    <ownedOperation xmi:id="_6r_c8APnEea1FKGm45eocQ" name="Test">
+      <ownedParameter xmi:id="_6r_c8QPnEea1FKGm45eocQ" name="name">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_6r_c8gPnEea1FKGm45eocQ" name="questions" type="_gykGQADFEea2VZTTYPp2MQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_M4paoAPoEea1FKGm45eocQ" name="Test"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Zj7b8P29EeW2VZTTYPp2MQ" name="BooleanQuestion">
+    <generalization xmi:id="_1EE6MAEeEea2VZTTYPp2MQ" general="_ZxhMAP29EeW2VZTTYPp2MQ"/>
+    <ownedOperation xmi:id="_voNb4AF1Eea2VZTTYPp2MQ" name="Display"/>
+    <ownedOperation xmi:id="_5DNn0AGjEea5FpTKJvtgcw" name="Take"/>
+    <ownedOperation xmi:id="_M5ICUAGkEea5FpTKJvtgcw" name="Modify"/>
+    <ownedOperation xmi:id="_AvGsYAPcEea1FKGm45eocQ" name="MultipleChoice">
+      <ownedParameter xmi:id="_AvGsYQPcEea1FKGm45eocQ" name="prompt">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_oHJ3gAPhEea1FKGm45eocQ" name="Tabulate"/>
+    <ownedOperation xmi:id="_XROYAAPoEea1FKGm45eocQ" name="BooleanQuestion"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ZxhMAP29EeW2VZTTYPp2MQ" name="MultipleChoice">
+    <generalization xmi:id="_83sLoADKEea2VZTTYPp2MQ" general="_gykGQADFEea2VZTTYPp2MQ"/>
+    <ownedAttribute xmi:id="_qJ0jAADlEea2VZTTYPp2MQ" name="choices" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qJ0jAQDlEea2VZTTYPp2MQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qJ0jAgDlEea2VZTTYPp2MQ" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_lHqY0AF2Eea2VZTTYPp2MQ" name="Display"/>
+    <ownedOperation xmi:id="_ZtZXIAGFEea2VZTTYPp2MQ" name="MultipleChoice">
+      <ownedParameter xmi:id="_6A0N4AN3Eea1FKGm45eocQ" name="prompt">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_dpOTgQGFEea2VZTTYPp2MQ" name="choices">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_4ZHh8AGjEea5FpTKJvtgcw" name="Take"/>
+    <ownedOperation xmi:id="_-W8yUAGjEea5FpTKJvtgcw" name="Modify"/>
+    <ownedOperation xmi:id="_n0xHAAPhEea1FKGm45eocQ" name="Tabulate"/>
+    <ownedOperation xmi:id="_TK_icAPoEea1FKGm45eocQ" name="MultipleChoice"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Z5yXMP29EeW2VZTTYPp2MQ" name="Ranking">
+    <generalization xmi:id="_nxBR0AGkEea5FpTKJvtgcw" general="_vQU28P29EeW2VZTTYPp2MQ"/>
+    <ownedOperation xmi:id="_rwCQcAF1Eea2VZTTYPp2MQ" name="Display"/>
+    <ownedOperation xmi:id="_fdr6wAGFEea2VZTTYPp2MQ" name="Ranking">
+      <ownedParameter xmi:id="_fdr6wQGFEea2VZTTYPp2MQ" name="prompt">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_fdr6wgGFEea2VZTTYPp2MQ" name="choices">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_4iSFAAGjEea5FpTKJvtgcw" name="Take"/>
+    <ownedOperation xmi:id="_-j2l4AGjEea5FpTKJvtgcw" name="Modify"/>
+    <ownedOperation xmi:id="_yW5FkANrEea1FKGm45eocQ" name="Ranking">
+      <ownedParameter xmi:id="_0ktoAANrEea1FKGm45eocQ" name="choicesB"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_oiJKYAPhEea1FKGm45eocQ" name="Tabulate"/>
+    <ownedOperation xmi:id="_Wpx9gAPoEea1FKGm45eocQ" name="Ranking"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_aLbg0P29EeW2VZTTYPp2MQ" name="Essay">
+    <generalization xmi:id="_-ok6cADKEea2VZTTYPp2MQ" general="_gykGQADFEea2VZTTYPp2MQ"/>
+    <ownedAttribute xmi:id="_aGXrEAF1Eea2VZTTYPp2MQ" name="graded" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aGYSIAF1Eea2VZTTYPp2MQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aGYSIQF1Eea2VZTTYPp2MQ" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_AMFv0AF0Eea2VZTTYPp2MQ" name="Display"/>
+    <ownedOperation xmi:id="_sDBDkAGFEea2VZTTYPp2MQ" name="Essay">
+      <ownedParameter xmi:id="_7yUnwAN3Eea1FKGm45eocQ" name="prompt">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_4yoOIAGjEea5FpTKJvtgcw" name="Take"/>
+    <ownedOperation xmi:id="_-x3MsAGjEea5FpTKJvtgcw" name="Modify"/>
+    <ownedOperation xmi:id="_oXeLcAPhEea1FKGm45eocQ" name="Tabulate"/>
+    <ownedOperation xmi:id="_UyBxsAPoEea1FKGm45eocQ" name="Essay"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_vQU28P29EeW2VZTTYPp2MQ" name="Matching">
+    <generalization xmi:id="_9zUtcADKEea2VZTTYPp2MQ" general="_gykGQADFEea2VZTTYPp2MQ"/>
+    <ownedAttribute xmi:id="_qBC_4AFFEea2VZTTYPp2MQ" name="choicesA" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qBC_4QFFEea2VZTTYPp2MQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qBC_4gFFEea2VZTTYPp2MQ" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_OyqGgAFGEea2VZTTYPp2MQ" name="choicesB" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OyqGgQFGEea2VZTTYPp2MQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OyqGggFGEea2VZTTYPp2MQ" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_B-UicAF0Eea2VZTTYPp2MQ" name="Display"/>
+    <ownedOperation xmi:id="_iZSwQAGFEea2VZTTYPp2MQ" name="Matching">
+      <ownedParameter xmi:id="_4PNGUAN3Eea1FKGm45eocQ" name="prompt">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_iZSwQgGFEea2VZTTYPp2MQ" name="choicesA">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_niMjwAGFEea2VZTTYPp2MQ" name="choicesB">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_4q-G8AGjEea5FpTKJvtgcw" name="Take"/>
+    <ownedOperation xmi:id="_-rmzsAGjEea5FpTKJvtgcw" name="Modify"/>
+    <ownedOperation xmi:id="_oQO7AAPhEea1FKGm45eocQ" name="Tabulate"/>
+    <ownedOperation xmi:id="_UKeCcAPoEea1FKGm45eocQ" name="Matchin"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_gykGQADFEea2VZTTYPp2MQ" name="Question">
+    <ownedAttribute xmi:id="_Sp2lgADNEea2VZTTYPp2MQ" name="prompt">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nqExwAGjEea5FpTKJvtgcw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nqExwQGjEea5FpTKJvtgcw" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_VOnPMANoEea1FKGm45eocQ" name="responses" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VOnPMQNoEea1FKGm45eocQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VOnPMgNoEea1FKGm45eocQ" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_5zH_cAPgEea1FKGm45eocQ" name="numResponsesRequired" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5zImgAPgEea1FKGm45eocQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5zImgQPgEea1FKGm45eocQ" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="__g-t0ADlEea2VZTTYPp2MQ" name="SetPrompt">
+      <ownedParameter xmi:id="_sGG0EADmEea2VZTTYPp2MQ" name="text">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_hlUV4ADmEea2VZTTYPp2MQ" name="SetChoices"/>
+    <ownedOperation xmi:id="_7s9SEAFzEea2VZTTYPp2MQ" name="Display"/>
+    <ownedOperation xmi:id="_4BSQwAGjEea5FpTKJvtgcw" name="Take"/>
+    <ownedOperation xmi:id="_6Yq-4AGjEea5FpTKJvtgcw" name="Modify"/>
+    <ownedOperation xmi:id="_nhnhgAPhEea1FKGm45eocQ" name="Tabulate"/>
+    <ownedOperation xmi:id="_PkeuwAPoEea1FKGm45eocQ" name="Question"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dtCF0AEfEea2VZTTYPp2MQ" name="surveysToQuestions" memberEnd="_dtCs4AEfEea2VZTTYPp2MQ _dtDT8AEfEea2VZTTYPp2MQ" navigableOwnedEnd="_dtDT8AEfEea2VZTTYPp2MQ">
+    <ownedEnd xmi:id="_dtCs4AEfEea2VZTTYPp2MQ" name="surveys" type="_kaYVQP0GEeWxnt_WBmzxzg" aggregation="shared" association="_dtCF0AEfEea2VZTTYPp2MQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dtCs4QEfEea2VZTTYPp2MQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dtCs4gEfEea2VZTTYPp2MQ" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_dtDT8AEfEea2VZTTYPp2MQ" name="questions" type="_gykGQADFEea2VZTTYPp2MQ" association="_dtCF0AEfEea2VZTTYPp2MQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dtDT8QEfEea2VZTTYPp2MQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dtDT8gEfEea2VZTTYPp2MQ" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tdz28AEfEea2VZTTYPp2MQ" name="ShortAnswer">
+    <generalization xmi:id="_0ujgsAEfEea2VZTTYPp2MQ" general="_aLbg0P29EeW2VZTTYPp2MQ"/>
+    <ownedAttribute xmi:id="_BmuPUAN4Eea1FKGm45eocQ" name="limit" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Bmu2YAN4Eea1FKGm45eocQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Bmu2YQN4Eea1FKGm45eocQ" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_yOHuMAF1Eea2VZTTYPp2MQ" name="Display"/>
+    <ownedOperation xmi:id="_5Jw7wAGjEea5FpTKJvtgcw" name="Take"/>
+    <ownedOperation xmi:id="_NIRRkAGkEea5FpTKJvtgcw" name="Modify"/>
+    <ownedOperation xmi:id="_GKpnsAPfEea1FKGm45eocQ" name="ShortAnswer">
+      <ownedParameter xmi:id="_GKpnsQPfEea1FKGm45eocQ" name="prompt">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_oq8hEAPhEea1FKGm45eocQ" name="Tabulate"/>
+    <ownedOperation xmi:id="_Vs5egAPoEea1FKGm45eocQ" name="ShortAnswer"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tTDXAAGkEea5FpTKJvtgcw" name="CAR">
+    <ownedAttribute xmi:id="_tTDXAQGkEea5FpTKJvtgcw" name="correctAnswers" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tTDXAgGkEea5FpTKJvtgcw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tTDXAwGkEea5FpTKJvtgcw" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_tTDXBAGkEea5FpTKJvtgcw" name="CheckAnswers">
+      <ownedParameter xmi:id="_wVw3AAT6Eea1FKGm45eocQ" name="responses">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="__dOXUAPnEea1FKGm45eocQ" name="CAR">
+      <ownedParameter xmi:id="_CVXpIAPoEea1FKGm45eocQ" name="correctAnswers">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Nj8aYAPoEea1FKGm45eocQ" name="CAR"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_y2z6gAGkEea5FpTKJvtgcw" name="testsToCARs" memberEnd="_y2z6gQGkEea5FpTKJvtgcw _y22WwQGkEea5FpTKJvtgcw" navigableOwnedEnd="_y22WwQGkEea5FpTKJvtgcw">
+    <ownedEnd xmi:id="_y2z6gQGkEea5FpTKJvtgcw" name="tests" type="_oV5IkP0GEeWxnt_WBmzxzg" aggregation="shared" association="_y2z6gAGkEea5FpTKJvtgcw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_y21vsAGkEea5FpTKJvtgcw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_y22WwAGkEea5FpTKJvtgcw" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_y22WwQGkEea5FpTKJvtgcw" name="cARs" type="_tTDXAAGkEea5FpTKJvtgcw" association="_y2z6gAGkEea5FpTKJvtgcw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_y2290AGkEea5FpTKJvtgcw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_y2290QGkEea5FpTKJvtgcw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_E0oK8AGlEea5FpTKJvtgcw" name="CustomIO">
+    <ownedOperation xmi:id="_JyH_sAGlEea5FpTKJvtgcw" name="println">
+      <ownedParameter xmi:id="_NSE4YAGlEea5FpTKJvtgcw" name="text">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_NSE4YQGlEea5FpTKJvtgcw" name="language">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Kx9a8APoEea1FKGm45eocQ" name="CustomIO"/>
+    <ownedOperation xmi:id="_H1_xsAT8Eea1FKGm45eocQ" name="input"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_RyuZEAGlEea5FpTKJvtgcw" name="Main">
+    <ownedAttribute xmi:id="_VieoUAGlEea5FpTKJvtgcw" name="language" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VieoUQGlEea5FpTKJvtgcw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VieoUgGlEea5FpTKJvtgcw" value="1"/>
+      <qualifier xmi:id="_Vo7OkAGlEea5FpTKJvtgcw" name="correctAnswers" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Vo7OkQGlEea5FpTKJvtgcw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Vo7OkgGlEea5FpTKJvtgcw" value="1"/>
+      </qualifier>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_ZTteQAGlEea5FpTKJvtgcw" name="io" visibility="public" type="_E0oK8AGlEea5FpTKJvtgcw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZTteQQGlEea5FpTKJvtgcw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZTteQgGlEea5FpTKJvtgcw" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_eUAIUAGlEea5FpTKJvtgcw" name="Menu1"/>
+    <ownedOperation xmi:id="_nUzacAGlEea5FpTKJvtgcw" name="SurveyMenu"/>
+    <ownedOperation xmi:id="_si86UAGlEea5FpTKJvtgcw" name="filenameQuery"/>
+    <ownedOperation xmi:id="_ntoSUAFyEea2VZTTYPp2MQ" name="LoadSurvey" visibility="public">
+      <ownedParameter xmi:id="_cTBPMAF9Eea2VZTTYPp2MQ" name="filename">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_qmNB8AFyEea2VZTTYPp2MQ" name="SaveSurvey" visibility="public">
+      <ownedParameter xmi:id="_qKmqEAF9Eea2VZTTYPp2MQ" name="filename">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_d0TyMATzEea1FKGm45eocQ" name="userSurvey" type="_kaYVQP0GEeWxnt_WBmzxzg"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_0Zs9UAPYEea1FKGm45eocQ" name="TestMenu"/>
+    <ownedOperation xmi:id="_Tv6nAATxEea1FKGm45eocQ" name="LoadTest" visibility="public">
+      <ownedParameter xmi:id="_Tv6nAQTxEea1FKGm45eocQ" name="filename">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Tv6nAgTxEea1FKGm45eocQ" name="SaveTest" visibility="public">
+      <ownedParameter xmi:id="_Tv6nAwTxEea1FKGm45eocQ" name="filename">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_hN4WEATzEea1FKGm45eocQ" name=""/>
+      <ownedParameter xmi:id="_hN4WEQTzEea1FKGm45eocQ" name="userTest" type="_oV5IkP0GEeWxnt_WBmzxzg"/>
+    </ownedOperation>
+  </packagedElement>
+</uml:Model>
